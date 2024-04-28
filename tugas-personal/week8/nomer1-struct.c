@@ -3,7 +3,6 @@
 struct Information {
     char panggilan[10];
     char asal[10];
-    char hoby[10];
     int umur;
 };
 
@@ -20,10 +19,7 @@ int main() {
     printf("Berapakah umur anda ? ");
     scanf("%d", &myInformation.umur);
     
-     printf("Apa hobi anda ? ");
-    scanf("%s", &myInformation.hoby);   
-    
-    printf("Hallo nama saya adalah %s, saya berumur %d tahun, dan saya berasal dari %s, lalu hoby saya adalah bermain %s, salam kenal yaa:)", myInformation.panggilan, myInformation.umur, myInformation.asal, myInformation.hoby);
+    printf("Hallo nama saya adalah %s, saya berumur %d tahun, dan saya berasal dari %s, salam kenal yaa:)", myInformation.panggilan, myInformation.umur, myInformation.asal);
 
     return 0;
 }    
